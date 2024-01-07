@@ -3,10 +3,10 @@ import java.util.Scanner
 fun main () {
     val scanner:Scanner = Scanner(System.`in`)
     println(getAscii())
-    println("CALCULE EL PRECIO DE SU COCHE USADO")
-    println(RED + "Escoja su modelo (escriba un número):" + RESET)
+    println(WHITE + "CALCULE EL PRECIO DE SU COCHE USADO" + RESET)
+    println(WHITE + "Escoja su modelo (escriba un número):" + RESET)
 
-    val cars:Array<String> = arrayOf("Volkswagen Grand California", "Volkswagen Grand California Camper Full Equip")
+    val cars:Array<String> = arrayOf(GREEN_BOLD + "Volkswagen Grand California", "Volkswagen Grand California Camper Full Equip" + RESET)
     val prices:FloatArray = floatArrayOf(73490f, 93490f)
 
     val userOption:Int = getCarType(cars, scanner)
@@ -16,7 +16,7 @@ fun main () {
     val wheelsKm:Int = getInt("Escriba los kilómetros que tienen sus neumáticos: ", 0, 1000000, scanner)
     val finalPrice:Float = calculatePrice(purchasePrice, km, wheelsKm)
 
-    println("\nEl precio de compra de su ${cars[userOption-1]} fue de $purchasePrice€\nActualmente, su coche vale $finalPrice€")
+    println(PURPLE + "\nEl precio de compra de su ${cars[userOption-1]} fue de $purchasePrice€\nActualmente, su coche vale $finalPrice€" + RESET)
 
 
 }

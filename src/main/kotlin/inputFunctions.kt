@@ -13,13 +13,13 @@ fun getInt(msg:String, min:Int, max:Int, scanner: Scanner):Int {
 
             if (int !in min..max) {
                 inputOk = false
-                println("Escriba un número dentro del rango entre $min y $max!")
+                println(RED + "Escriba un número dentro del rango entre $min y $max!" + RESET)
             }
 
             scanner.nextLine()
         } else {
             scanner.next()
-            println("Escriba un número válido!")
+            println(RED + "Escriba un número válido!" + RESET)
         }
     } while (!inputOk)
 
@@ -40,7 +40,7 @@ fun getFloat(msg:String, scanner:Scanner):Float {
             scanner.nextLine()
         } else {
             scanner.next()
-            println("Escriba un número válido!")
+            println(RED + "Escriba un número válido!" + RESET)
         }
     } while (!inputOk)
 
@@ -61,7 +61,7 @@ fun getDouble(msg:String, scanner:Scanner):Double {
             scanner.nextLine()
         } else {
             scanner.next()
-            println("Escriba un número válido!")
+            println(RED + "Escriba un número válido!" + RESET)
         }
     } while (!inputOk)
 
@@ -81,7 +81,7 @@ fun getLong(msg:String, scanner:Scanner):Long {
             scanner.nextLine()
         } else {
             scanner.next()
-            println("Escriba un número válido!")
+            println(RED + "Escriba un número válido!" + RESET)
         }
     } while (!inputOk)
 
