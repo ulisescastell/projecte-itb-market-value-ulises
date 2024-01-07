@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe2f086-805b-49a7-af13-2bdf2c7d2d03" name="Changes" comment="add min and max parameter to getInt function" />
+    <list default="true" id="fbe2f086-805b-49a7-af13-2bdf2c7d2d03" name="Changes" comment="add min and max parameter to getInt function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +58,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ulise/Downloads/itb-calculate-market-value-ed5078d1514706841c4f79ab14a2d2075e8fce6b/itb-calculate-market-value-ed5078d1514706841c4f79ab14a2d2075e8fce6b"
+    "last_opened_file_path": "C:/Users/ulise/Downloads/itb-calculate-market-value-ed5078d1514706841c4f79ab14a2d2075e8fce6b/projecte-itb-market-value-ulises"
   }
 }]]></component>
   <component name="SharedIndexes">
